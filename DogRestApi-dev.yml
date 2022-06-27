@@ -1,4 +1,5 @@
 dog:
+  id: 1
   aem:
     schema: https
     port: 443
