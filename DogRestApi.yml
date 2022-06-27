@@ -2,11 +2,28 @@ dog:
   id: 1
   name: Cookie
   breed: Golden Retriever
+
+cat:
+  cat_id: 1
+  cat_name: Cherry
+  cat_breed: White
+ 
 ---
 
-dog:
-  id: 2
-  name: Coco
-  breed: Beagle
-  
+spring: 
+  config:
+    activate:
+      on-profile: 'dev'
+  dog:
+    colour: Golden Brown 
+
+---
+
+spring: 
+  config:
+    activate:
+      on-profile: 'test'
+  dog:
+    colour: White
+
 ---
