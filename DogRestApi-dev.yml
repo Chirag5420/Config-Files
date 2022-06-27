@@ -1,5 +1,7 @@
 dog:
-  id: 1
+  aem:
+    schema: https
+    port: 443
   name: Cookie
   breed: Golden Retriever
 
@@ -25,5 +27,10 @@ spring:
       on-profile: 'dev'
   dog:
     colour: White
+    aem:
+      host: hostname
+      authorHost: devAuthor
+  cat:
+    cat_legs: 4
 
 ---
